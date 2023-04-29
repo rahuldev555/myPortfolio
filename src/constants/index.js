@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  click,
 } from "../assets";
 
 export const navLinks = [
@@ -50,7 +51,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "UI / UX Designer",
     icon: mobile,
   },
   {
@@ -99,7 +100,7 @@ const experiences = [
   {
     title: "UI Developer",
     company_name: "ACERT IT Solutions Pvt Ltd",
-    icon: starbucks,
+    icon: reactjs,
     iconBg: "#383E56",
     date: "May 2019 - April 2020",
     points: [
@@ -112,7 +113,7 @@ const experiences = [
   {
     title: "React.JS Developer",
     company_name: "ACERT IT Solutions Pvt Ltd",
-    icon: tesla,
+    icon: redux,
     iconBg: "#E6DEDD",
     date: "May 202 - March 2023",
     points: [
@@ -121,46 +122,6 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "ACERT IT Solutions Pvt Ltd",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -185,6 +146,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/rahuldev555/myGames",
+    source_app_link: "https://rahul-darla-games.vercel.app/",
   },
   {
     name: "myFilms",
@@ -206,28 +168,29 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/rahuldev555/filmsStore",
+    source_app_link: "https://rahuldarla-film-store.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "myFoods",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive food order platform made with swiggy API, that allows users to order food of different varieties, on popular restaurants.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/rahuldev555/fireflies-foods",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

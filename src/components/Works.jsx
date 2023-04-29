@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github } from "../assets";
+import { click } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -44,6 +45,16 @@ const ProjectCard = ({
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
+            <div
+              onClick={() => window.open(source_app_link, "_blank")}
+              className="bg-gray-300 m-1 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={click}
+                alt="source code"
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
           </div>
         </div>
 
@@ -71,7 +82,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
+        <h3 className={`${styles.sectionSubText} `}>My work</h3>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
