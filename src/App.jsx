@@ -3,6 +3,7 @@ import {
   About,
   ComputersCanvas,
   Contact,
+  EarthCanvas,
   Experience,
   Hero,
   Navbar,
@@ -20,6 +21,9 @@ const App = () => {
           <Hero />
           {/* <ComputersCanvas /> */}
         </div>
+        <EarthCanvas />
+        <StarsCanvas />
+
         <About />
 
         <Experience />
@@ -28,7 +32,7 @@ const App = () => {
         <Works />
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
+          {/* <StarsCanvas /> */}
         </div>
       </div>
     </BrowserRouter>
