@@ -1,7 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import {
   About,
-  ComputersCanvas,
   Contact,
   Experience,
   Hero,
