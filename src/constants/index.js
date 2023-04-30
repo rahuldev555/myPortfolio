@@ -1,8 +1,6 @@
 import {
   carrent,
-  css,
   git,
-  html,
   javascript,
   jobit,
   mobile,

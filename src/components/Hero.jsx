@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { ComputersCanvas, EarthCanvas, StarsCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -19,7 +17,7 @@ const Hero = () => {
             <span className="text-[#00FFFF]"> &nbsp; ᖇᗩ𝔥Ǘ𝓵 </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop user <br className="sm:block hidden" />
+            i develop user <br className="sm:block hidden" />
             interfaces and web applications
           </p>
         </div>
