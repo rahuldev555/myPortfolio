@@ -1,10 +1,9 @@
-import React, { useRef, useState } from "react";
-import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { motion } from "framer-motion";
+import React, { useRef, useState } from "react";
 
-import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
@@ -37,9 +36,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Rahul Darla",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "darla.rahul@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -122,13 +121,6 @@ const Contact = () => {
           </button>
         </form>
       </motion.div>
-
-      {/* <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
-      >
-        <EarthCanvas />
-      </motion.div> */}
     </div>
   );
 };

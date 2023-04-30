@@ -8,8 +8,8 @@ import {
   redux,
   tailwind,
   tripguide,
-  typescript,
   web,
+  materialui,
 } from "../assets";
 
 export const navLinks = [
@@ -69,8 +69,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Material UI",
+    icon: materialui,
   },
 ];
 

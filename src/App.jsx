@@ -1,7 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import {
   About,
-  ComputersCanvas,
   Contact,
   EarthCanvas,
   Experience,
@@ -19,20 +18,15 @@ const App = () => {
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
-          {/* <ComputersCanvas /> */}
         </div>
-        <EarthCanvas />
         <StarsCanvas />
-
+        <EarthCanvas />
         <About />
-
         <Experience />
         <Tech />
-
         <Works />
         <div className="relative z-0">
           <Contact />
-          {/* <StarsCanvas /> */}
         </div>
       </div>
     </BrowserRouter>
