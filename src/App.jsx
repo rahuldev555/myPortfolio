@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import {
   About,
+  ComputersCanvas,
   Contact,
   Experience,
   Hero,
@@ -17,9 +18,9 @@ const App = () => {
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
+          <ComputersCanvas />
         </div>
         <About />
-        {/* <ComputersCanvas /> */}
 
         <Experience />
         <Tech />
