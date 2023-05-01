@@ -41,7 +41,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Next JS Developer",
+    title: "R3F (react three fiber)",
     icon: web,
   },
 ];
