@@ -6,7 +6,7 @@ import navIcon3 from "../assets/nav-icon3.svg";
 export const Footer = () => {
   return (
     <div>
-      <div className="py-5 flex  gap-5 justify-center text-center">
+      <div className="py-5 flex  gap-10 justify-center text-center">
         <Link href="#">
           <img src={navIcon1} alt="Icon" />
         </Link>
