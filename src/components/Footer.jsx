@@ -7,15 +7,15 @@ export const Footer = () => {
   return (
     <div>
       <div className="py-5 flex  gap-10 justify-center text-center">
-        <Link href="#">
+        <a href="www.linkedin.com/in/rahul-darla-reactdev">
           <img src={navIcon1} alt="Icon" />
-        </Link>
-        <Link href="#">
-          <img src={navIcon2} alt="Icon" />
-        </Link>
-        <Link href="#">
+        </a>
+        <a href="https://instagram.com/rahul_makes_noice?igshid=ZGUzMzM3NWJiOQ==">
           <img src={navIcon3} alt="Icon" />
-        </Link>
+        </a>
+        <a href="https://www.facebook.com/darla.rahul/">
+          <img src={navIcon2} alt="Icon" />
+        </a>
       </div>
     </div>
   );
