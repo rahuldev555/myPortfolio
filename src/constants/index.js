@@ -36,13 +36,14 @@ const services = [
     title: "React JS Developer",
     icon: web,
   },
+
+  {
+    title: "Next JS Developer",
+    icon: web,
+  },
   {
     title: "UI / UX Designer",
     icon: mobile,
-  },
-  {
-    title: "R3F (react three fiber)",
-    icon: web,
   },
 ];
 
@@ -127,6 +128,28 @@ const projects = [
     source_app_link: "https://rahul-darla-games.vercel.app/",
   },
   {
+    name: "myLibrary",
+    description:
+      "A comprehensive library platform made with googlebooks API, that allows users to browse and read samples of different books.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/rahuldev555/myLibrary",
+    source_app_link: "https://my-librarybooks.vercel.app/",
+  },
+  {
     name: "myFilms",
     description:
       "Web application that enables users to search for all movies, belongs to different genre movie related information ",
@@ -147,27 +170,6 @@ const projects = [
     image: jobit,
     source_code_link: "https://github.com/rahuldev555/filmsStore",
     source_app_link: "https://rahuldarla-film-store.netlify.app/",
-  },
-  {
-    name: "myFoods",
-    description:
-      "A comprehensive food order platform made with swiggy API, that allows users to order food of different varieties, on popular restaurants.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/rahuldev555/fireflies-foods",
   },
 ];
 
