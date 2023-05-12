@@ -47,7 +47,7 @@ const ProjectCard = ({
             </div>
             <div
               onClick={() => window.open(source_app_link, "_blank")}
-              className="bg-gray-300 m-1 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="bg-gray-50 m-1 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
                 src={click}
